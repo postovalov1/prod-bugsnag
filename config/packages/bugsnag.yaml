@@ -1,0 +1,5 @@
+bugsnag:
+    api_key: '%env(BUGSNAG_API_KEY)%'
+    notify_release_stages: [ "prod", "dev", "staging" ]
+    user: false
+    auto_notify: true
